@@ -62,7 +62,7 @@ class NotesController{
         const user_id = req.user.id;
 
 
-        let notes;
+        let notes
         if(tags){
 
             const filterTags = tags.split(",").map(tag => tag.trim())
